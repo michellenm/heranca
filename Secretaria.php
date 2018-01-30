@@ -1,5 +1,7 @@
 <?php
+require_once "Funcionario.php";
+
 class Secretaria extends Funcionario {
-  privite $ramal;
+  public $ramal;
 }
 ?>
